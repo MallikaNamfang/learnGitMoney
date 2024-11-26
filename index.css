@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anuphan", sans-serif;
+}
+.container {
+    padding: 20px;
+}
+.box{
+    width: 100%;
+    background: #adadad;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #adadad;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.box.success {
+    background: #e3ffd2;
+    color: #3d7e15;
+    border: 1px solid #3d7e15;
+}
+.box.danger {
+    background: #ffe5e5;
+    color: #a41616;
+    border: 1px solid #a41616;
+}
+.box.info {
+    background: green;
+    color: purple;
+    border: 1px solid purple;
+}
+
+.tag {
+    background: #f2f2f2;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #adadad;
+    border-radius: 10px;
+}
+.tag.active {
+    background: #e3ffd2;
+    color: #3d7e15;
+    border: 1px solid #3d7e15;
+}
+.statement {
+    width: 75%;
+    background: gray;
+    padding: 10px;
+    border: 1px solid #adadad;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.text-danger {
+    color: #a41616;
+}
+.text-success {
+    color: green;
+}
+.text-gray {
+    color: #adadad; 
+
+}
